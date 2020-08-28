@@ -22,6 +22,10 @@
           <include>zh-wiki-count.ser</include>
           <include>zh-wiki-inc-feat-counts.ser</include>
           <include>zh-wiki-pipeline.ser</include>
+                <include>ar-wiki-articles.ser</include>
+                <include>ar-wiki-count.ser</include>
+                <include>ar-wiki-inc-feat-counts.ser</include>
+                <include>ar-wiki-pipeline.ser</include>
   			</includes>
   		</resource>
   	</resources>
