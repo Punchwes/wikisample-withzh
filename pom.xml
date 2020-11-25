@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ac.uk.susx.tag</groupId>
   <artifactId>wiki-sample</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <parent>
      <groupId>uk.ac.susx.tag</groupId>
      <artifactId>tag-dist</artifactId>
