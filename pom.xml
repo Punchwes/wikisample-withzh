@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ac.uk.susx.tag</groupId>
   <artifactId>wiki-sample</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <parent>
      <groupId>uk.ac.susx.tag</groupId>
      <artifactId>tag-dist</artifactId>
-     <version>1.0.8</version>
+     <version>1.0.9</version>
      <relativePath>../tag-dist/pom.xml</relativePath>
   </parent>
   <build>
@@ -15,13 +15,22 @@
   			<directory>sample</directory>
   			<includes>
   				<include>wiki-samp.ser</include>
-          <include>wiki-counts.ser</include>
-          <include>wiki-inc-feat-counts.ser</include>
-          <include>wiki-pipeline.ser</include>
-          <include>zh-wiki-articles.ser</include>
-          <include>zh-wiki-count.ser</include>
-          <include>zh-wiki-inc-feat-counts.ser</include>
-          <include>zh-wiki-pipeline.ser</include>
+                <include>wiki-counts.ser</include>
+                <include>wiki-inc-feat-counts.ser</include>
+                <include>wiki-pipeline.ser</include>
+                <include>zh-wiki-articles.ser</include>
+                <include>zh-wiki-count.ser</include>
+                <include>zh-wiki-inc-feat-counts.ser</include>
+                <include>zh-wiki-pipeline.ser</include>
+                <include>de-wiki-articles.ser</include>
+                <include>de-wiki-count.ser</include>
+                <include>de-wiki-inc-feat-counts.ser</include>
+                <include>de-wiki-pipeline.ser</include>
+                <include>fr-wiki-articles.ser</include>
+                <include>fr-wiki-count.ser</include>
+                <include>fr-wiki-inc-feat-counts.ser</include>
+                <include>fr-wiki-pipeline.ser</include>
+
   			</includes>
   		</resource>
   	</resources>
