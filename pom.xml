@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ac.uk.susx.tag</groupId>
   <artifactId>wiki-sample</artifactId>
-  <version>1.0.4</version>
+  <version>1.0.3</version>
   <parent>
      <groupId>uk.ac.susx.tag</groupId>
      <artifactId>tag-dist</artifactId>
-     <version>1.0.9</version>
+     <version>1.0.8</version>
      <relativePath>../tag-dist/pom.xml</relativePath>
   </parent>
   <build>
