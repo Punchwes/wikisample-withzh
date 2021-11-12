@@ -1,0 +1,28 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n  <modelVersion>4.0.0</modelVersion>\n  <groupId>ac.uk.susx.tag</groupId>\n  <artifactId>wiki-sample</artifactId>\n  <version>1.0.3</version>\n  <parent>\n     <groupId>uk.ac.susx.tag</groupId>\n     <artifactId>tag-dist</artifactId>\n     <version>1.0.8</version>\n     <relativePath>../tag-dist/pom.xml</relativePath>\n  </parent>\n  <build>\n  \t<resources>\n  \t\t<resource>\n  \t\t\t<directory>sample</directory>\n  \t\t\t<includes>\n  \t\t\t\t<include>wiki-samp.ser</include>\n          <include>wiki-counts.ser</include>\n          <include>wiki-inc-feat-counts.ser</include>\n          <include>wiki-pipeline.ser</include>\n          <include>zh-wiki-articles.ser</include>\n          <include>zh-wiki-count.ser</include>\n          <include>zh-wiki-inc-feat-counts.ser</include>\n          <include>zh-wiki-pipeline.ser</include>\n  \t\t\t</includes>\n  \t\t</resource>\n  \t</resources>\n  </build>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	
++++ b/pom.xml	
+@@ -15,13 +15,14 @@
+   			<directory>sample</directory>
+   			<includes>
+   				<include>wiki-samp.ser</include>
+-          <include>wiki-counts.ser</include>
+-          <include>wiki-inc-feat-counts.ser</include>
+-          <include>wiki-pipeline.ser</include>
++                <include>wiki-counts.ser</include>
++                <include>wiki-inc-feat-counts.ser</include>
++             <include>wiki-pipeline.ser</include>
+           <include>zh-wiki-articles.ser</include>
+           <include>zh-wiki-count.ser</include>
+           <include>zh-wiki-inc-feat-counts.ser</include>
+           <include>zh-wiki-pipeline.ser</include>
++
+   			</includes>
+   		</resource>
+   	</resources>
