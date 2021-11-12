@@ -26,10 +26,10 @@
                 <include>de-wiki-count.ser</include>
                 <include>de-wiki-inc-feat-counts.ser</include>
                 <include>de-wiki-pipeline.ser</include>
-                <include>fr-wiki-articles.ser</include>
-                <include>fr-wiki-count.ser</include>
-                <include>fr-wiki-inc-feat-counts.ser</include>
-                <include>fr-wiki-pipeline.ser</include>
+                <include>ru-wiki-articles.ser</include>
+                <include>ru-wiki-count.ser</include>
+                <include>ru-wiki-inc-feat-counts.ser</include>
+                <include>ru-wiki-pipeline.ser</include>
 
   			</includes>
   		</resource>
