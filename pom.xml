@@ -22,10 +22,8 @@
                 <include>zh-wiki-count.ser</include>
                 <include>zh-wiki-inc-feat-counts.ser</include>
                 <include>zh-wiki-pipeline.ser</include>
-                <include>ru-wiki-articles.ser</include>
-                <include>ru-wiki-count.ser</include>
-                <include>ru-wiki-inc-feat-counts.ser</include>
-                <include>ru-wiki-pipeline.ser</include>
+                <include>ru-wiki-inc-feat-counts-large.ser</include>
+                <include>ru-wiki-pipeline-large.ser</include>
   			</includes>
   		</resource>
   	</resources>
